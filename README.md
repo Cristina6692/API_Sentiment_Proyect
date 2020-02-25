@@ -14,3 +14,6 @@ Para introducir un nuevo usuario a un chat:
 
  --Utilizamos la ruta @app.route('/insert/userMessageInChat/<ChatID>') y los parametros 'user_name' y 'texto
   
+Para mostrar la lista de mensajes de un chat:
+
+ --Utilizamos la ruta @app.route('/chat/<ChatID>/list')
